@@ -6,6 +6,5 @@ RUN pip install -r /app/requirements.txt
 
 COPY . /app
 WORKDIR /app
-EXPOSE 51337
 CMD ["python3", "main.py"]
 
