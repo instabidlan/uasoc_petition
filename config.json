@@ -1,0 +1,22 @@
+{
+    "channel_id": 1212909014497755146,
+    "info_channel_id": 1233500619487051776,
+    "approve_threshold": 20,
+    "check_rate": 120,
+    "embed_color": 5064158,
+    "approval_emoji": "✅",
+    "btn_labels": {
+        "approve": "Прийняти",
+        "decline": "Відхилити",
+        "jump": "Перейти до петиції"
+    },
+    "tags": {
+        "approve_tag": "Прийнято",
+        "decline_tag": "Відхилено",
+        "pending_tag": "На розгляді"
+    },
+    "allowed_emojis": [
+        "✅",
+        "❎"
+    ]
+}
