@@ -130,7 +130,7 @@ async def check_petitio_reactions():
         for r in threadStarter.reactions:
             if r.emoji not in ALLOWED_EMOJIS:
                 await r.clear()
-            elif r.emoji == APPROVAL_EMOJI and r.count == APPROVE_THRESHOLD:
+            elif r.emoji == APPROVAL_EMOJI and r.count >= APPROVE_THRESHOLD:
                 if thread.locked:
                     continue
                 
