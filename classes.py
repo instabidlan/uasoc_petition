@@ -8,4 +8,5 @@ class uacBot(commands.Bot):
         intents.typing = False
         intents.presences = False
         intents.message_content = True
-        super().__init__(command_prefix='!', intents=intents)
+        intents.reactions = True
+        super().__init__(command_prefix="!", intents=intents)
