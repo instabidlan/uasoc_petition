@@ -1,0 +1,6 @@
+services:
+  bot:
+    build:
+      context: .
+    container_name: uac_petition_bot
+    env_file: .env
